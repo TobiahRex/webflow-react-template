@@ -5,43 +5,65 @@
 * 1) "Example" is the name of a "child component" that you've already created and want to render INSIDE of this "smart Component."  This line "imports", "child compoennts" to be used INSIDE of a "parent component".  In the following step you will assign the name of the "parent component".
 * 2) "CHANGME" needs to be changed to the name of the "parent component".
 * 3) "EXAMPLEVAR" is the name of the dynamic variable that will be used inside the application.
+* 4) The variable changed in step 3 will be imported to the render() function here.  You must change this name to match the name you assigned in step 3.
+* 5)
 */
 
 import React from 'react';
 import PropTypes from 'prop-types';
 
 import {
-  Example, // 1) Change Me
+  Example, // TODO 1)Change Me
 } from './components.imports';
+
+import {
+  webflowJs,
+  webflowCss,
+} from './utilities.imports';
 
 const { string } = PropTypes;
 
-class CHANGME extends React.Component = {  // 2) Change Me
+class CHANGME extends React.Component = {  // TODO 2) Change Me
   constructor(props) {
     super(props);
 
     this.state = {
-      EXAMPLEVAR: '', // 3) Change me.
+      EXAMPLEVAR: '', // TODO 3) Change me.
     };
+  }
+
+  componentDidMount() {
+    webflowJs();
+    webflowCss();
   }
 
   render() {
     const {
-      EXAMPLEVAR, // 4) Change me to match the name from #3.
+      EXAMPLEVAR, // TODO 4) Change me to match the name from #3.
     } = this.state;
 
     return (
       <Example>
         {/*
+          TODO
+          5) Replace everything inside the parens directly after "return".
 
-          4) Delete everything
+          NOTE
+          - Replace "Example" and paste in the HTML you cut from the webflow template.
 
-          - Delete "Example" and paste in the HTML you cut from the webflow template.
-
-          - Delete "Example2".  If you need to insert a "child component" that you imported from "component.imports", then Paste it in place of "Example2"
+          - Replace "Example2".  If you need to insert a "child component" that you imported from "component.imports" (Step 1), then Paste it in place of "Example2"
 
         */}
         <Example2>
+          {/*
+            TODO
+            6) Replace the name below "EXAMPLEVAR" with the name you assigned in steps 4 & 5.
+
+            NOTE
+            - Wherever the dynamic variable will be used is where you need to insert the variable.
+
+            - You insert the variable by writing "{VARIABLE}".  The brackets ({}) are mandatory.
+          */}
           {EXAMPLEVAR}
         </Example2>
       </Example>
