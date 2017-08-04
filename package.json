@@ -1,9 +1,9 @@
 {
-  "name": "reactBoilerplate",
+  "name": "webflow-react-template",
   "version": "0.0.1",
-  "description": "React Boiler Plate",
+  "description": "Webflow React Template",
   "main": "index.js",
-  "repository": "https://github.com/TobiahRex/reactBoilerplate.git",
+  "repository": "https://github.com/TobiahRex/webflow-react-template.git",
   "scripts": {
     "analyze-bundle": "NODE_ENV=production babel-node ./tools/analyzeBundle.js",
     "deploy": "NODE_ENV=production npm-run-all prebuild build:bundle copy:assets s3:clean s3:deploy cf:invalidate start-prod",
