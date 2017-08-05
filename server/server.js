@@ -14,7 +14,7 @@ import api from './api';
 
 mongoose.Promise = Promise;
 const PORT = process.env.PORT || 3000;
-const MONGO = process.env.MONGODB_URI || 'mongodb://localhost/reactBoilerplate';
+const MONGO = process.env.MONGODB_URI || 'mongodb://localhost/webflow-react-template';
 const app = express();
 const compiler = webpack(webpackConfig);
 app.use(devMiddleware(compiler, {

@@ -1,0 +1,5450 @@
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #f60000;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.brand {
+  display: block;
+  width: 13%;
+  border-bottom: 1px none #3b3838;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 1px solid #3b3838;
+}
+
+.navbar-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.nav-link {
+  color: #ffa041;
+}
+
+.nav-link-2 {
+  color: #ffa041;
+}
+
+.nav-link-3 {
+  color: #ffa041;
+}
+
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 3;
+  display: none;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.container {
+  display: block;
+  margin-top: 120px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.image {
+  background-image: url('../../../images/bbq_brisket_NOlicense.jpg');
+  background-position: 0px 0px;
+  background-size: 295px;
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  color: #ff8000;
+  font-size: 80px;
+  line-height: 1em;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.heading.heading--white {
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: -3px;
+}
+
+.important-text {
+  font-weight: 300;
+}
+
+.heading__subtitle {
+  margin-right: 160px;
+  color: #eec520;
+  font-size: 50px;
+  line-height: 1em;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.important-text-2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.body {
+  height: 1000px;
+}
+
+.menu {
+  height: 1600px;
+}
+
+.heading-2 {
+  border-bottom: 0px none transparent;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(59, 56, 56, .36);
+  font-size: 50px;
+  line-height: 2em;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu__divider {
+  display: block;
+  height: 70px;
+  max-width: 940px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.divider--line-break {
+  position: static;
+  height: 2px;
+  margin-top: -32px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: rgba(59, 56, 56, .18);
+  color: transparent;
+}
+
+.divider--icon {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: block;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-2 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.menu-item-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-item-block.menu-item-block-title {
+  text-transform: none;
+}
+
+.heading-3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #f30a0a;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.menu-item-block-description {
+  padding: 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3b3838;
+  font-size: 15px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.image-2 {
+  box-shadow: 1px 1px 3px 0 #000;
+}
+
+.menu-item-price {
+  line-height: 1em;
+}
+
+.heading-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3b3838;
+  text-align: left;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.heading-4.menu-item-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.important-text-3 {
+  font-weight: 300;
+}
+
+.important-text-4 {
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.column {
+  display: block;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.column-2 {
+  text-align: center;
+}
+
+.row-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-5 {
+  color: #3b3838;
+}
+
+.language-menu {
+  display: inline-block;
+  width: auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: 81px;
+  margin-left: 81px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.nav-menu-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin-left: 400px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.nav-menu-right.navbar__right-half {
+  min-width: 440px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.image-3 {
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.dropdown-toggle {
+  top: 30px;
+  display: block;
+}
+
+.text-block {
+  font-family: Mplus1p, sans-serif;
+  font-weight: 400;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgba(0, 0, 0, .99);
+}
+
+.div-block-2 {
+  position: static;
+  display: block;
+  width: 300px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.link-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.link-block-2 {
+  height: 68px;
+}
+
+.link-block-2.navbar__nav-icon {
+  height: 59px;
+}
+
+.link-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.link-block-3.navbar__nav-icon {
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.link-block-3.navbar__nav-icon:hover {
+  margin-bottom: 15px;
+}
+
+.navbar__nav-link {
+  margin-right: 10px;
+  border: 2px solid transparent;
+  -webkit-transition: color 500ms ease;
+  transition: color 500ms ease;
+  font-family: Bitter, serif;
+  color: #ecf0f1;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar__nav-link:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-color: #ff5722;
+  color: #ff5722;
+}
+
+.navbar__nav-link.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.navbar_nav-break {
+  width: 2px;
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 0px;
+  background-color: #ff5722;
+  color: #3b3838;
+}
+
+.navbar-wrapper__logo {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dropdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar-language-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.dropdown-toggle-2 {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.image-4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.language-wrapper {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.language-drop-down {
+  display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  -webkit-transition: border 500ms ease-in-out;
+  transition: border 500ms ease-in-out;
+}
+
+.language-drop-down:hover {
+  border-color: #ff5722;
+  background-color: #000;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.header-info-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  display: block;
+  overflow: visible;
+  height: 100%;
+  background-color: #000;
+}
+
+.slide-1 {
+  display: inline-block;
+  width: 100%;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 100% 100%, rgba(0, 0, 0, .51), hsla(0, 0%, 100%, 0) 61%), -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 0) 81%, #000), url('../../../images/loneSmoke-smoker-pit-WEB.png');
+  background-image: radial-gradient(circle farthest-corner at 100% 100%, rgba(0, 0, 0, .51), hsla(0, 0%, 100%, 0) 61%), linear-gradient(0deg, hsla(0, 0%, 100%, 0) 81%, #000), url('../../../images/loneSmoke-smoker-pit-WEB.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
+  color: #d8d7d7;
+}
+
+.text-block-2 {
+  padding-left: 10px;
+  font-family: Mplus1p, sans-serif;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.text-block-2.active-language-english-text {
+  font-family: Bitter, serif;
+  font-size: 14px;
+}
+
+.icon {
+  color: #ff5722;
+}
+
+.info-container {
+  position: relative;
+  top: 24%;
+}
+
+.align-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-top: 17vh;
+  margin-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: none;
+}
+
+.align-center.footer-columns {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lonesmoke-title {
+  display: none;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.lone-smoke-title {
+  width: 400px;
+}
+
+.title-americanbbq {
+  position: static;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 61px;
+  line-height: 1em;
+  text-align: center;
+  letter-spacing: 0px;
+  text-shadow: 1px 1px 45px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.heading-7 {
+  margin-bottom: -38px;
+  font-family: 'Lie To Me';
+  color: #ffa041;
+  font-size: 75px;
+  line-height: 2.5em;
+}
+
+.important-text-5 {
+  position: relative;
+  color: #fff;
+  font-size: 120px;
+  text-shadow: 1px 1px 20px #000;
+}
+
+.heading-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Tequila Sunrise';
+  color: #fff500;
+  font-size: 30px;
+  line-height: 1em;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 16px #000;
+}
+
+.text-span {
+  color: #fff;
+}
+
+.title-lone-smoke {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Fields Of Cathay';
+  color: #ecf0f1;
+  font-size: 100px;
+  line-height: 1em;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 16px #000;
+}
+
+.heading-9 {
+  font-family: 'Tequila Sunrise';
+  color: #fff;
+}
+
+.title-welcome {
+  position: relative;
+  top: -5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 20px #000;
+}
+
+.title-welcome.upper-title {
+  left: -9px;
+  margin-bottom: 10px;
+}
+
+.title-welcome.japanese.mobile-splash-sub-subtitle {
+  font-family: Mplus1p, sans-serif;
+}
+
+.important-text-6 {
+  position: relative;
+  z-index: 12;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: #fff;
+}
+
+.text-span-2 {
+  font-family: 'Echino Spark', sans-serif;
+  color: #f6ec00;
+  font-size: 55px;
+}
+
+.important-text-7 {
+  margin-top: 20px;
+  font-family: 'Echino Spark', sans-serif;
+  color: #ee2915;
+  font-size: 68px;
+  line-height: 1.1em;
+  text-shadow: 4px 6px 20px #000, 4px 4px 15px #000;
+}
+
+.header-slider-navbutton {
+  position: absolute;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  margin-top: 360px;
+  margin-right: 0px;
+  border-radius: 50px;
+  background-color: rgba(246, 0, 0, .43);
+}
+
+.header-slider-navbutton.header-slider-navbutton--right {
+  background-color: transparent;
+}
+
+.header-slider-navbutton.header-slider-navbutton--left {
+  left: 20px;
+  background-color: transparent;
+}
+
+.slide-3 {
+  background-image: -webkit-linear-gradient(90deg, #000, hsla(0, 0%, 100%, 0) 41%), -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/porkRibs_thumbnail__NOlicense.png');
+  background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, 0) 41%), linear-gradient(0deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/porkRibs_thumbnail__NOlicense.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-attachment: scroll, scroll, scroll;
+}
+
+.slide-3.slide-smoked {
+  background-image: -webkit-linear-gradient(90deg, #000, hsla(0, 0%, 100%, 0) 36%), -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/loneSmoke-smoke-WEB.png');
+  background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, 0) 36%), linear-gradient(0deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/loneSmoke-smoke-WEB.png');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, repeat-x;
+  background-attachment: scroll, scroll, scroll;
+}
+
+.slide-3.slide-ribs {
+  background-image: -webkit-linear-gradient(90deg, #000, hsla(0, 0%, 100%, 0) 41%), -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/loneSmoke-ribs-closeup-WEB.png');
+  background-image: linear-gradient(0deg, #000, hsla(0, 0%, 100%, 0) 41%), linear-gradient(0deg, hsla(0, 0%, 100%, 0) 50%, #000), url('../../../images/loneSmoke-ribs-closeup-WEB.png');
+}
+
+.container-3 {
+  margin-top: 30vh;
+}
+
+.slider-menu-button {
+  margin-left: 0px;
+  padding: 20px 50px;
+  border: 2px solid #971326;
+  border-radius: 4px;
+  background-color: #bd0909;
+  box-shadow: 1px 1px 6px 0 #000;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: #ecf0f1;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.slider-menu-button:hover {
+  border-color: #df4413;
+  background-color: #ff5722;
+}
+
+.slider-menu-button.japanese-slider-menu-button {
+  font-family: Mplus1p, sans-serif;
+}
+
+.slider-h3 {
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 44px;
+  line-height: 1.1em;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.slider-h1 {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 95px;
+  line-height: 1em;
+  text-align: left;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.slider-h1.mobile-slider-h1.tablet-slider-h1.japanese-slider-h1 {
+  font-size: 65px;
+}
+
+.important-text-8 {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 2px;
+  margin-right: -10px;
+  margin-left: 20px;
+  padding-left: 0px;
+  font-family: Steelworks, sans-serif;
+  line-height: 1em;
+}
+
+.important-text-9 {
+  position: relative;
+  bottom: 4px;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 34px;
+  line-height: 1em;
+}
+
+.important-text-10 {
+  font-size: 40px;
+  text-shadow: 4px 4px 8px #000, 1px 1px 6px #000;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-top: 21px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.slider-3-title {
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 65px;
+  line-height: 1.2em;
+  text-align: left;
+  letter-spacing: 6px;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 6px #000;
+}
+
+.slider-3-title.featured-title {
+  display: none;
+  text-align: center;
+}
+
+.important-text-11 {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  font-family: Steelworks, sans-serif;
+}
+
+.menu-section {
+  position: relative;
+  background-color: #000;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.container-4 {
+  padding-top: 0px;
+}
+
+.container-5 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.menu-heading {
+  font-family: 'Old press', sans-serif;
+  color: #ecf0f1;
+  font-size: 60px;
+  line-height: 1em;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #000, 1px 1px 6px #000;
+}
+
+.menu-linebreak-container {
+  width: 80%;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line-break {
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 1px;
+  margin-top: 0px;
+  background-color: #3b3838;
+}
+
+.linebreak-image {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../../../images/Menu_Icon_NOlicense.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slider-nav-icon {
+  color: #fff;
+  font-size: 40px;
+}
+
+.menu-column-container {
+  display: block;
+}
+
+.food-column {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.food-card-container {
+  display: block;
+  max-width: 430px;
+  min-height: 600px;
+  margin: 20px auto 10px;
+  padding: 28px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #ffa041;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-position: 0px 0px, 0px 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat-y;
+}
+
+.food-card-container.black-menu-card {
+  background-color: #111;
+  background-image: none;
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.food-card-container.grey-menu-card {
+  background-color: #3b3838;
+  background-image: none;
+}
+
+.food-card-container.black-wood-menu-card {
+  background-image: -webkit-linear-gradient(270deg, transparent, rgba(0, 0, 0, .49) 26%, rgba(0, 0, 0, .44) 92%, hsla(0, 0%, 100%, 0)), url('../../../images/grey_wood__NOlisence.jpg');
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .49) 26%, rgba(0, 0, 0, .44) 92%, hsla(0, 0%, 100%, 0)), url('../../../images/grey_wood__NOlisence.jpg');
+}
+
+.food-card-container.meat-rice-card {
+  min-height: 500px;
+}
+
+.food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.mobile-bbq-rice-card {
+  min-height: 450px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+}
+
+.food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.english {
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.food-card-container.rack-of-ribs-card {
+  max-width: 550px;
+  min-height: 400px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-position: 0px 0px, 50% 50%;
+}
+
+.food-card-container.food-card-container-mobile-portrait {
+  background-color: #000;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-position: 0px 0px, 50% 50%;
+}
+
+.food-card-container.mobile-dogs-food-card.english {
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 13%, rgba(0, 0, 0, .45) 35%, rgba(0, 0, 0, .37) 76%, transparent), url('../../../images/loneSmoke-menu-card.png');
+  background-position: 0px 0px, 50% 50%;
+}
+
+.food-card-title {
+  width: 100%;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.food-card-title.japanese-smoked-sausage-title {
+  font-size: 30px;
+}
+
+.food-card-title.english-menu-cart-title {
+  font-family: 'American captain', sans-serif;
+  font-size: 45px;
+}
+
+.food-card-title.bbq-rib-title {
+  color: #fff;
+  font-size: 35px;
+}
+
+.food-card-title.mobile-menu-small-title.smaller.japanese {
+  font-size: 30px;
+}
+
+.food-card-title.mobile-menu-small-title.smaller.japanese.bbq-rice-title {
+  color: #fff;
+}
+
+.food-card-title.mobile-menu-small-title.smaller.bbq-rice-title {
+  font-size: 34px;
+}
+
+.food-card-title.mobile-menu-small-title.bbq-rice-title {
+  color: #fff;
+}
+
+.food-card-subtitle {
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.1em;
+  font-weight: 500;
+  text-align: left;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.food-card-subtitle.english-menu-card-price {
+  font-family: Bitter, serif;
+}
+
+.important-text-12 {
+  position: relative;
+  left: -13px;
+  right: -13px;
+  color: #d8d7d7;
+  font-size: 29px;
+  letter-spacing: 2px;
+}
+
+.important-text-13 {
+  position: relative;
+  left: 10px;
+  right: 0px;
+  bottom: 1.5px;
+  font-family: Steelworks, sans-serif;
+}
+
+.important-text-14 {
+  position: relative;
+  left: -9px;
+  top: 0px;
+  right: -38px;
+  bottom: 0px;
+  font-family: Oswald, sans-serif;
+}
+
+.paragraph {
+  font-family: 'Lie To Me';
+}
+
+.paragraph.food-description {
+  display: block;
+  margin-bottom: 0px;
+  padding: 20px 5px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-radius: 5px;
+  background-color: transparent;
+  font-family: Mplus1p, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.4em;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.paragraph.food-description.food-options {
+  padding-top: 0px;
+  text-align: left;
+}
+
+.paragraph.food-description.food-options-title {
+  padding-bottom: 20px;
+}
+
+.paragraph.food-description.english-menu-card-subtitle {
+  font-family: Bitter, serif;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.div-block-4.smoked-wings-price-container {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-4.smoked-chicken-price-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-4.menu-card-2 {
+  background-color: transparent;
+}
+
+.important-text-15 {
+  position: relative;
+  left: 0px;
+  top: 8px;
+  right: 0px;
+  margin-right: 0px;
+  margin-left: 65px;
+  padding-left: 0px;
+  font-family: Steelworks, sans-serif;
+  color: #ecf0f1;
+  font-size: 73px;
+  line-height: 0em;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.image-popup {
+  position: relative;
+  display: block;
+  width: 16.66%;
+  float: left;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.menu-slideshow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.zoom-icon-wrapper {
+  position: relative;
+  top: 39%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon-wrapper {
+  position: relative;
+  top: 50%;
+}
+
+.zoom-icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .45);
+  background-image: url('../../../images/1024px-Search_font_awesome.png');
+  background-position: 50% 50%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.lightbox-link {
+  position: static;
+  display: block;
+}
+
+.light-box-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0%;
+  display: none;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(90deg, rgba(253, 127, 2, .62), transparent);
+  background-image: linear-gradient(0deg, rgba(253, 127, 2, .62), transparent);
+}
+
+.div-block-5 {
+  height: 10vh;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0), #000 74%);
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #000 74%);
+}
+
+.black-background-fade {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 15vh;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 0), #000 86%);
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #000 86%);
+}
+
+.location {
+  height: 600px;
+}
+
+.map-overlay {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 5;
+  height: 600px;
+  margin-bottom: -600px;
+  padding-top: 0px;
+  background-color: rgba(0, 0, 0, .81);
+}
+
+.google-map {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  height: 600px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.location-title {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: Steelworks, sans-serif;
+  color: #ecf0f1;
+  font-size: 45px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 17px #000;
+}
+
+.container-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-6 {
+  max-width: 30px;
+}
+
+.location-subtitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Bitter, serif;
+  color: #ecf0f1;
+  font-size: 24px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.location-subtitle.subtitle-1 {
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 34px;
+  line-height: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.location-subtitle.subtitle-1.phone-location-subtitles {
+  font-family: Bitter, serif;
+}
+
+.location-subtitle.subtitle-1.phone-location-subtitles.japanese-location-subtitle {
+  font-family: Mplus1p, sans-serif;
+}
+
+.location-subtitle.subtitle-2 {
+  position: relative;
+  top: 0px;
+  margin-top: 50px;
+  margin-left: 12px;
+  padding-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 34px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+.location-subtitle.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.location-subtitle-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.location-subtitle-zushi {
+  position: relative;
+  top: 2px;
+  bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-family: 'Echino Spark', sans-serif;
+  color: #ee2915;
+  font-size: 34px;
+  line-height: 1.1em;
+}
+
+.location-subtitle-zushi.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.div-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 30px;
+  padding: 25px 40px;
+  border: 2px solid #bd0909;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 1px 1px 3px 0 #000;
+  -webkit-transition: color 500ms ease, border-color 500ms ease;
+  transition: color 500ms ease, border-color 500ms ease;
+  font-family: Bitter, serif;
+  color: #bd0909;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  border-color: #ff5722;
+  color: #ff5722;
+}
+
+.button:active {
+  border-color: #fc8300;
+  color: #fc8300;
+}
+
+.button.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.bottom-footer {
+  height: 520px;
+  margin-bottom: 0px;
+  background-color: #000;
+  background-image: -webkit-linear-gradient(90deg, #000 15%, hsla(0, 0%, 100%, 0) 78%);
+  background-image: linear-gradient(0deg, #000 15%, hsla(0, 0%, 100%, 0) 78%);
+  background-position: 0px 0px;
+  background-size: auto;
+  font-family: 'Tequila Sunrise';
+}
+
+.footer-follow-us {
+  margin-right: 20px;
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  font-size: 32px;
+  line-height: 1.1em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.footer-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.image-7 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #fd7f02;
+  border-radius: 50%;
+  background-image: url('../../../images/facebook_icon_orange.png');
+  background-position: 50% 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.social-link.social-link__instagram {
+  margin-left: 10px;
+  border-color: #ff5722;
+  background-image: url('../../../images/instagram_fontawesome_icon_grey.png');
+  background-position: 50% 50%;
+  background-size: 30px;
+  -webkit-transition: border-color 300ms ease;
+  transition: border-color 300ms ease;
+}
+
+.social-link.social-link__instagram:hover {
+  border-color: #fc8300;
+}
+
+.social-link.social-link__facebook {
+  border-color: #ff5722;
+  background-image: url('../../../images/facebook_icon_grey.png');
+  background-position: 50% 50%;
+  background-size: 30px;
+  -webkit-transition: border-color 300ms ease;
+  transition: border-color 300ms ease;
+}
+
+.social-link.social-link__facebook:hover {
+  border-color: #fc8300;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.row-4 {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+
+.footer-open-title {
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: none;
+}
+
+.footer-open-title.footer-open-title-mobile {
+  font-family: 'American captain', sans-serif;
+}
+
+.open-list-item.list-title {
+  margin-right: 15px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.text-block-3 {
+  position: relative;
+  font-family: Bitter, serif;
+  color: #ff5722;
+  font-size: 14px;
+  line-height: 1.1em;
+}
+
+.list-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.list-item.monday {
+  width: 100%;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.list-item.tuesday {
+  width: 100%;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.unordered-list {
+  margin-top: 20px;
+}
+
+.column-3 {
+  height: 100%;
+}
+
+.footer-column-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-contact-title {
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  font-size: 40px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.footer-contact-title.footer-contact-title-mobile {
+  font-family: 'American captain', sans-serif;
+}
+
+.div-block-9 {
+  position: relative;
+  top: 0px;
+  height: 500px;
+}
+
+.footer-underlay {
+  height: 500px;
+  background-image: url('../../../images/stock-photo-empty-barbecue-flaming__NOlicense.jpg');
+  background-position: 50% 138%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.footer-overlay {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 0px;
+  background-color: #971326;
+}
+
+.contact-telephone {
+  color: #f60000;
+}
+
+.list-item-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-4 {
+  margin-right: 10px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.text-block-4.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.text-block-4.japanese-footer-telephone-number {
+  font-family: Mplus1p, sans-serif;
+}
+
+.footer-contact-phonenumber {
+  position: relative;
+  top: 4px;
+  font-family: Bitter, serif;
+  color: #ff5722;
+  font-size: 17px;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.footer-phone-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-phone-wrapper.english-phone {
+  width: 100%;
+  margin-top: 1px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer-phone-wrapper.japanese-phone {
+  width: 100%;
+  margin-top: 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.heading-12 {
+  position: static;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+}
+
+.heading-12.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.main-head-container {
+  padding-top: 0px;
+}
+
+.footer-column-hours {
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.footer-column-contact {
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
+.location-title-section {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  color: #ff5722;
+  text-align: left;
+}
+
+.location-title-section.location {
+  height: 400px;
+  background-image: url('../../../images/stock-photo-bbq-grill-pit-with-glowing-and-flaming-hot-charcoal-briquettes__NOlicense.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.right-arrow {
+  display: none;
+}
+
+.dropdown-list {
+  display: none;
+  width: 100px;
+  height: 60px;
+  padding: 0px;
+  border: 2px solid #000;
+  background-color: #000;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+}
+
+.dropdown-list:hover {
+  border: 2px solid #ff5722;
+  border-radius: 4px;
+}
+
+.language-english-link {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Steelworks, sans-serif;
+  color: #fff;
+}
+
+.language-english-link.language-english-navlink {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.dropdown-link-2 {
+  font-family: Steelworks, sans-serif;
+  color: #ecf0f1;
+}
+
+.dropdown-link-3 {
+  font-family: Steelworks, sans-serif;
+  color: #ecf0f1;
+}
+
+.dropdown-link-4 {
+  font-family: Steelworks, sans-serif;
+  color: #ecf0f1;
+}
+
+.language-english-dropdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.language-english-dropdown:hover {
+  background-color: #000;
+}
+
+.language-japanese-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.menu-beef-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.menu-chicken-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #bd0909;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  font-family: Steelworks, sans-serif;
+}
+
+.main-button:hover {
+  background-color: #ee2915;
+}
+
+.main-button.call-button-nihongo {
+  font-family: Mplus1p, sans-serif;
+  font-weight: 400;
+}
+
+.main-button.call-button-english {
+  position: relative;
+  z-index: 1;
+  background-color: #df4413;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #d8d7d7;
+}
+
+.main-button.call-button-english:hover {
+  background-color: #fc8300;
+}
+
+.image-8 {
+  position: static;
+  z-index: 2;
+  max-width: 30px;
+}
+
+.menu-pork-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.image-9 {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 #000;
+}
+
+.image-9.rack-of-ribs-image {
+  max-width: 90%;
+}
+
+.list-item-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.left-arrow {
+  display: none;
+}
+
+.zushi-beach-title {
+  margin-top: 0px;
+  font-family: 'Echino Spark', sans-serif;
+  color: #ff1800;
+  font-size: 60px;
+  line-height: 1em;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.zushi-beach-title.japanese-zushi-beach-title {
+  font-family: Mplus1p, sans-serif;
+}
+
+.welcome-heading {
+  margin-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 60px;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.heading-14 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  color: #3b3838;
+  font-size: 25px;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.heading-14.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.important-text-16 {
+  font-size: 44px;
+}
+
+.important-text-17 {
+  font-size: 45px;
+}
+
+.line-break-wrapper {
+  position: static;
+  display: none;
+  width: 100vh;
+  height: 100px;
+  margin: 25px auto 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.menu-line-break {
+  position: relative;
+  top: -50px;
+  display: none;
+  width: 100%;
+  height: 2px;
+  background-color: #3b3838;
+}
+
+.menu-title-icon {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.image-10 {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+}
+
+.container-7 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-transform: lowercase;
+}
+
+.restaurant-food-column-title {
+  margin-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading-15 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Pacifico, sans-serif;
+  color: #3b3838;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-15.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.image-11 {
+  display: block;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.more-button {
+  margin-top: 0px;
+  padding: 12px 25px;
+  border: 2px solid #df4413;
+  border-radius: 4px;
+  background-color: #ff5722;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Bitter, serif;
+  color: #ecf0f1;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.more-button:hover {
+  border-color: #971326;
+  background-color: #971326;
+}
+
+.more-button.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.row-5 {
+  margin-top: 50px;
+}
+
+.booya-discount-section {
+  height: 400px;
+  background-image: url('../../../images/loneSmoke-brisket-BGIMAGE.png');
+  background-position: 50% -1%;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+.overlay-block {
+  height: 100%;
+}
+
+.overlay-block.booya-discount-overlay {
+  display: none;
+  background-color: transparent;
+}
+
+.container-8 {
+  padding-top: 100px;
+}
+
+.heading-16 {
+  margin-bottom: 20px;
+  font-family: 'Old press', sans-serif;
+  color: #ecf0f1;
+  font-size: 60px;
+  line-height: 1em;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.white-text-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #ecf0f1;
+  font-size: 23px;
+  line-height: 1em;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.important-text-18 {
+  font-family: 'Echino Spark', sans-serif;
+  color: #ecf0f1;
+  font-size: 36px;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.text-block-5 {
+  margin-top: 18px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #ecf0f1;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.important-text-19 {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Echino Spark', sans-serif;
+  font-size: 35px;
+}
+
+.important-text-20 {
+  font-size: 20px;
+}
+
+.fresh-meat-section {
+  background-color: #000;
+}
+
+.container-9 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-weight: 400;
+}
+
+.our-meat-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  text-align: center;
+}
+
+.super-fresh-meat {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.super-fresh-meat.slowly-smoked-heading {
+  margin-bottom: 10px;
+  color: #ee2915;
+}
+
+.fresh-meat-line-break-wrapper {
+  display: block;
+  width: 90%;
+  height: 70px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.fresh-meat-line-break {
+  position: relative;
+  top: -35px;
+  height: 2px;
+  background-color: #3b3838;
+}
+
+.image-12 {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.div-block-12 {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 80px;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
+}
+
+.text-block-6 {
+  margin-top: 20px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  line-height: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.text-block-6.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.text-block-6.japanese.mobile-fresh-meat-story {
+  font-size: 16px;
+}
+
+.important-text-21 {
+  font-family: 'Echino Spark', sans-serif;
+  color: #ee2915;
+  font-size: 27px;
+}
+
+.menu-image-section {
+  height: 400px;
+  background-image: url('../../../images/loneSmoke-ribs-BGIMAGE-reducedSize.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu-title {
+  margin-bottom: 20px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.menu-title.japanese {
+  line-height: 70px;
+}
+
+.menu-title.mobile-menu-title {
+  line-height: 70px;
+}
+
+.pick-something-heading {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: Bitter, serif;
+  color: #3b3838;
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: none;
+}
+
+.pick-something-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.important-text-22 {
+  color: #d8d7d7;
+}
+
+.image-13 {
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 #000;
+}
+
+.menu-row-container {
+  display: none;
+}
+
+.menu-description-block {
+  padding: 0px 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.list-item-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+.div-block-13 {
+  width: 50%;
+}
+
+.menu-blurb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.paragraph-2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: Steelworks, sans-serif;
+  font-size: 25px;
+  line-height: 1em;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+.heading-17 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Steelworks, sans-serif;
+  color: #ff5722;
+  font-size: 35px;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: none;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.image-14 {
+  max-height: 200px;
+  max-width: 30%;
+  border-radius: 4px;
+}
+
+.column-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 180px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.price-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px 25px;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: Steelworks, sans-serif;
+  color: #bd0909;
+  font-size: 30px;
+  line-height: 1em;
+  text-transform: lowercase;
+}
+
+.menu-subtitle {
+  margin-top: 0px;
+  font-family: 'Old press', sans-serif;
+  color: rgba(51, 51, 51, .3);
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.location-overlay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .55);
+  color: #ecf0f1;
+}
+
+.footer-line-break {
+  width: 100%;
+  height: 70px;
+}
+
+.footer-icon-block {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.div-block-15 {
+  position: relative;
+  top: -35px;
+  height: 1px;
+  background-color: #3b3838;
+  color: #333;
+}
+
+.footer-copyright-text {
+  font-family: Bitter, serif;
+  color: #3b3838;
+  text-align: center;
+}
+
+.footer-copyright-text.footer-copyright-text-mobile {
+  font-family: Bitter, serif;
+}
+
+.english-call-button {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-phone-image {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  display: block;
+}
+
+.footer-call-button-text {
+  position: absolute;
+  left: 0px;
+  top: 64%;
+  right: 0px;
+  bottom: 80%;
+  z-index: 3;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 14px;
+  line-height: 1em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footer-call-button-text.japanese-call-text {
+  font-family: Mplus1p, sans-serif;
+  font-size: 16px;
+}
+
+.footer-call-button-text.footer-call-button-mobile {
+  font-family: Bitter, serif;
+}
+
+.footer-call-button-text.footer-call-button-mobile.japanese.footer-eigo-call-button {
+  font-family: Mplus1p, sans-serif;
+}
+
+.mask {
+  display: block;
+  overflow: hidden;
+}
+
+.column-5 {
+  padding-left: 20px;
+}
+
+.image-16 {
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 #000;
+}
+
+.image-17 {
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 #000;
+}
+
+.image-18 {
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 #000;
+}
+
+.image-19 {
+  border-radius: 4px;
+}
+
+.location-heading {
+  margin-bottom: 59px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 60px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.location-heading.location-heading-mobile {
+  font-family: 'American captain', sans-serif;
+}
+
+.splash-logo {
+  display: block;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.important-text-23 {
+  position: relative;
+  right: 7px;
+  bottom: 3px;
+  font-family: Pacifico, sans-serif;
+  font-size: 27px;
+  text-transform: capitalize;
+}
+
+.discount-section {
+  display: block;
+  height: 400px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../../images/loneSmoke-smoke-WEB.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../../images/loneSmoke-smoke-WEB.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.discount-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: transparent;
+}
+
+.discount-heading {
+  margin-bottom: 0px;
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  font-size: 60px;
+  line-height: 1.1em;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.text-field {
+  height: 50px;
+  max-width: 50%;
+  margin-bottom: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-family: Bitter, serif;
+}
+
+.text-field.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.submit-button {
+  padding: 0px 20px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #df4413;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  line-height: 1em;
+}
+
+.submit-button:hover {
+  background-color: #ff5722;
+}
+
+.submit-button.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.success-message {
+  background-color: transparent;
+}
+
+.text-block-8 {
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 25px;
+  line-height: 30px;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.important-text-24 {
+  font-family: Pacifico, sans-serif;
+}
+
+.error-message {
+  background-color: transparent;
+}
+
+.text-block-9 {
+  font-family: Bitter, serif;
+  color: #db0f0f;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.discount-sub-heading {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 25px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.discount-sub-heading.discount-sub-heading-mobile {
+  font-family: Pacifico, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.important-text-25 {
+  font-family: Bitter, serif;
+  color: #ee2915;
+  font-size: 26px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3), 1px 1px 6px #000;
+}
+
+.appetizer-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.meat-heading {
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 40px;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+.ala-carte-heading {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-size: 40px;
+  line-height: 1.1em;
+  text-align: center;
+}
+
+.important-text-26 {
+  color: #ee2915;
+}
+
+.heading-18 {
+  font-family: Pacifico, sans-serif;
+  color: #d8d7d7;
+  font-size: 30px;
+  line-height: 1.1em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+}
+
+.heading-18.bbq-rice-sub-heading-phone {
+  font-family: Pacifico, sans-serif;
+}
+
+.heading-18.japanese.bbq-rice-sub-heading {
+  font-family: Mplus1p, sans-serif;
+}
+
+.heading-19 {
+  padding-bottom: 0px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading-19.bbq-rice-sub-sub-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.heading-20 {
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading-20.bbq-rice-sub-sub-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.heading-21 {
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading-21.bbq-rice-sub-sub-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.free-topping-card {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-22 {
+  padding: 20px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 35px;
+  line-height: 1.1em;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.list-item-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.paragraph-4 {
+  padding-left: 20px;
+}
+
+.topping-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.topping-title {
+  font-family: Bitter, serif;
+  color: #ff5722;
+  font-size: 25px;
+  line-height: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3), 1px 1px 6px #000, 1px 1px 6px #000;
+}
+
+.topping-title.pickles-title {
+  font-weight: 400;
+}
+
+.topping-title.toppings-title.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.topping-title._100-yen-item.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.topping-title._200-yen-item.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.topping-title._500-yen-item.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.image-21 {
+  border-radius: 5px;
+}
+
+.image-22 {
+  border-radius: 5px;
+}
+
+.image-23 {
+  border-radius: 5px;
+}
+
+.image-24 {
+  border-radius: 5px;
+}
+
+.image-25 {
+  border-radius: 5px;
+}
+
+.image-26 {
+  border-radius: 5px;
+}
+
+.image-27 {
+  border-radius: 5px;
+}
+
+.topping-price-break {
+  height: 70px;
+}
+
+.topping-price-break.price-topping-line-break {
+  margin-top: 30px;
+}
+
+.topping-price-break.price-topping-line-break.topping-line-break-phone {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.topping-price-break.topping-line-break-phone {
+  display: block;
+  max-width: 80%;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.topping-line-break-divider {
+  position: relative;
+  top: -35px;
+  height: 1px;
+  background-color: #df4413;
+  color: #3b3838;
+}
+
+.topping-line-break-divider.topping-mini-line-break {
+  display: none;
+  background-color: #3b3838;
+}
+
+.topping-line-break-divider.mobile-portrait-line-break {
+  background-color: #ff5722;
+}
+
+.heading-24 {
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  height: 100%;
+  margin: 0px auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #000;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  text-align: center;
+}
+
+.heading-24.free-menu-heading {
+  font-family: Pacifico, sans-serif;
+}
+
+.heading-24.free-menu-heading.topping-sub-heading-phone {
+  width: 120px;
+  font-family: Bitter, serif;
+}
+
+.heading-24.bbq-rice-heading {
+  margin-top: 50px;
+}
+
+.heading-24.bbq-rice-heading.menu-heading-phone {
+  width: 180px;
+}
+
+.heading-24.bbq-rice-heading.japanese {
+  width: 210px;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+}
+
+.heading-24.menu-heading-phone {
+  width: 240px;
+  font-family: Pacifico, sans-serif;
+  color: #df4413;
+  font-weight: 400;
+}
+
+.heading-24.menu-heading-phone.japanese-dog-links-line-break {
+  width: 280px;
+}
+
+.heading-24.menu-heading-phone.japanese-dog-links-line-break.japanese {
+  width: 290px;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+}
+
+.heading-24.menu-heading-phone.japanese {
+  width: 120px;
+}
+
+.heading-24.menu-heading-phone.rack-of-ribs-heading.japanese {
+  width: 200px;
+}
+
+.heading-24.menu-heading-phone.ala-cart-menu-break {
+  width: 200px;
+}
+
+.heading-24.topping-sub-heading-phone {
+  width: 140px;
+}
+
+.heading-24.japanese.appetizers-heading {
+  width: 100px;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+}
+
+.heading-24.ala-cart-heading.japanese {
+  width: 220px;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+}
+
+.heading-24.toppings-heading.japanese {
+  width: 220px;
+  font-family: Mplus1p, sans-serif;
+  color: #ff5722;
+}
+
+.heading-24.rack-of-ribs-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.heading-24.rack-of-ribs-heading.japanese.mobile-menu-ribs-category {
+  color: #ff5722;
+}
+
+.video {
+  height: 400px;
+}
+
+.important-text-27 {
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.div-block-16 {
+  text-transform: capitalize;
+}
+
+.menu-category-line-break {
+  height: 70px;
+  margin-top: 50px;
+}
+
+.menu-category-line-break.menu-phone {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.important-text-28 {
+  color: #ee2915;
+}
+
+.important-text-29 {
+  padding-left: 5px;
+  color: #d8d7d7;
+}
+
+.important-text-30 {
+  padding-left: 2px;
+  color: #ff1800;
+}
+
+.important-text-31 {
+  color: #ff1800;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .3), 1px 1px 6px #000;
+}
+
+.important-text-31.japanese-discount-amount {
+  font-family: Mplus1p, sans-serif;
+}
+
+.text-block-10 {
+  padding-left: 7px;
+  font-family: Bitter, serif;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.language-choice-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.image-34 {
+  width: 25px;
+  height: 13px;
+}
+
+.english-text-dropdown {
+  font-family: Mplus1p, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.important-text-32.japanese-slider-subtitle {
+  font-family: Mplus1p, sans-serif;
+}
+
+.japanese-slider-3 {
+  font-family: Mplus1p, sans-serif;
+}
+
+.about {
+  min-height: 800px;
+  background-color: #000;
+}
+
+.container-10 {
+  margin-top: 100px;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.about-heading.english {
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  font-size: 45px;
+}
+
+.about-heading.english.sub-heading {
+  color: #ff5722;
+}
+
+.div-block-17 {
+  padding: 0px;
+}
+
+.about-container {
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 130px;
+  padding-bottom: 150px;
+}
+
+.about-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-story.japanese {
+  margin-bottom: 0px;
+  font-family: Mplus1p, sans-serif;
+  color: #d8d7d7;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+}
+
+.about-story.english {
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  line-height: 27px;
+  text-align: center;
+}
+
+.important-text-34 {
+  font-style: italic;
+}
+
+.important-text-35 {
+  font-style: italic;
+}
+
+.important-text-36 {
+  font-style: italic;
+}
+
+.image-36 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-25 {
+  font-family: 'American captain', sans-serif;
+  color: #ff5722;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.heading-25.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.heading-26 {
+  text-align: center;
+}
+
+.heading-27 {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-family: Bitter, serif;
+  color: #d8d7d7;
+  text-align: center;
+}
+
+.heading-27.zushi-beach-sub-heading {
+  margin-top: 8px;
+  margin-bottom: 50px;
+  font-family: 'Echino Spark', sans-serif;
+  color: #ee2915;
+  font-size: 40px;
+}
+
+.heading-27.details-sub-heading {
+  margin-bottom: 50px;
+}
+
+.heading-27.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.email-container {
+  display: block;
+  max-width: 560px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-top: 2px solid #ff5722;
+}
+
+.wings-image-section {
+  height: 400px;
+  background-image: url('../../../images/loneSmoke-ribs-closeup-WEB.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer-follow-us-heading {
+  max-width: 200px;
+  margin-right: 15px;
+  font-family: 'American captain', sans-serif;
+  color: #d8d7d7;
+  text-align: center;
+}
+
+.footer-follow-us-heading.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.div-block-18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph-5 {
+  text-align: center;
+}
+
+.paragraph-5.japanese {
+  font-family: Mplus1p, sans-serif;
+}
+
+.div-block-19 {
+  padding-top: 50px;
+}
+
+.link-block-4 {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ff5722;
+}
+
+.important-text-37 {
+  color: red;
+}
+
+.important-text-38 {
+  font-family: 'Echino Spark', sans-serif;
+  color: #ee2915;
+  font-size: 34px;
+}
+
+.important-text-39 {
+  color: #ee2915;
+}
+
+.image-37 {
+  width: 110px;
+}
+
+.image-38 {
+  width: 100px;
+}
+
+.image-39 {
+  width: 110px;
+}
+
+html.w-mod-js *[data-ix="background-fade-in"] {
+  opacity: 0.5;
+  -webkit-transform: scale(1.06, 1.06);
+  -ms-transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
+}
+
+html.w-mod-js *[data-ix="slide-1-zoom-in-on-load"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-1-zoom-in-on-load-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-1-zoom-in-on-load-3"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-1-zoom-in-on-load-4"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-2-zoom-in-on-load-5"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-2-zoom-in-on-load-6"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-2-zoom-in-on-load-7"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-3-zoom-in-on-load-8"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-3-zoom-in-on-load-9"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="slide-3-zoom-in-on-load-10"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+html.w-mod-js *[data-ix="navbar-zoom-in-on-load"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, -54px);
+  -ms-transform: translate(0px, -54px);
+  transform: translate(0px, -54px);
+}
+
+@media (max-width: 991px) {
+  .header {
+    background-position: 0px 0px, 0% 47%;
+    background-size: auto, auto;
+  }
+  .nav-menu-right {
+    left: -400px;
+    top: 122px;
+    display: block;
+    background-color: #000;
+  }
+  .nav-menu-right.mobile-navs {
+    top: 127px;
+  }
+  .nav-menu-right.mobile-nav-menu-right {
+    position: absolute;
+    left: -400px;
+    top: 127px;
+  }
+  .navbar-wrapper.navbar-mobile-portrait {
+    position: fixed;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff5722;
+    background-color: #000;
+  }
+  .link-block-3.navbar__nav-icon.mobile-location-icon {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .link-block-3.navbar__nav-icon.mobile-location-wrapper {
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    -webkit-transition-property: none;
+    transition-property: none;
+  }
+  .navbar__nav-link.japanese {
+    width: 100%;
+    font-family: Mplus1p, sans-serif;
+    text-align: center;
+  }
+  .navbar__nav-link.japaanese {
+    text-align: center;
+  }
+  .navbar__nav-link.mobile-centered {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar_nav-break {
+    display: none;
+  }
+  .navbar_nav-break.mobile-hidden {
+    display: none;
+  }
+  .navbar-language-menu {
+    top: 0px;
+    padding-bottom: 60px;
+    background-color: #000;
+  }
+  .navbar-language-menu.mobile-nav-menu {
+    display: block;
+    padding-bottom: 65px;
+  }
+  .image-4.mobile-location-icon-offset {
+    position: relative;
+    left: -7px;
+  }
+  .language-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .language-drop-down {
+    display: block;
+  }
+  .language-drop-down.mobile-language-wrapper {
+    padding-bottom: 20px;
+    border-radius: 0px;
+    background-color: #000;
+  }
+  .slide-1 {
+    background-image: url('../../../images/loneSmoke-smoker-pit-WEB.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .title-americanbbq.mobile-splash-subtitle {
+    color: #ff5722;
+    font-size: 40px;
+  }
+  .slide-3.slide-smoked {
+    background-image: url('../../../images/loneSmoke-smoke-WEB.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+  }
+  .slide-3.slide-ribs {
+    background-image: url('../../../images/loneSmoke-ribs-closeup-WEB.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .container-3 {
+    padding-left: 30px;
+  }
+  .slider-menu-button.japanese-slider-menu-button {
+    font-family: Mplus1p, sans-serif;
+  }
+  .slider-h1.mobile-slider-h1.tablet-slider-h1 {
+    font-size: 65px;
+  }
+  .slider-h1.mobile-slider-h1.tablet-slider-h1.japanese-slider-h1 {
+    font-family: Mplus1p, sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 1px 6px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+  }
+  .slider-3-title.mobile-slider-3-title.tablet-slider-3-title.japanese-slider-3-title {
+    font-family: Bitter, serif;
+    font-size: 60px;
+  }
+  .food-card-container {
+    min-height: 400px;
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.mobile-bbq-rice-card {
+    min-height: 300px;
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 0px 50%;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.english {
+    min-height: 300px;
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .food-card-container.rack-of-ribs-card {
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.food-card-container-mobile-portrait {
+    min-height: 450px;
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.food-card-container-mobile-portrait.english {
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+  }
+  .food-card-container.mobile-dogs-food-card.english {
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 50%;
+  }
+  .food-card-title {
+    font-size: 30px;
+  }
+  .food-card-title.japanese-smoked-sausage-title.mobile-menu-small-title.smaller {
+    font-size: 27px;
+  }
+  .food-card-title.mobile-menu-small-title {
+    font-size: 30px;
+  }
+  .food-card-title.mobile-menu-small-title.smaller {
+    font-size: 26px;
+  }
+  .food-card-title.mobile-menu-small-title.smaller.japanese {
+    font-size: 28px;
+  }
+  .food-card-title.mobile-menu-small-title.smaller.japanese.bbq-rice-title {
+    font-size: 27px;
+  }
+  .food-card-title.mobile-menu-small-title.smaller.bbq-rice-title {
+    font-size: 27px;
+  }
+  .food-card-title.mobile-menu-small-title.japanese-menu-card-title {
+    font-size: 32px;
+  }
+  .food-card-title.mobile-menu-small-title.japanese-menu-card-title.smaller {
+    font-size: 28px;
+  }
+  .food-card-title.japanese-menu-card-title {
+    font-size: 30px;
+  }
+  .paragraph.food-description.english-menu-card-subtitle {
+    font-size: 16px;
+  }
+  .paragraph.food-description.japanese-menu-card-subtitle {
+    font-size: 20px;
+  }
+  .location-subtitle.subtitle-1.phone-location-subtitles.japanese-location-subtitle {
+    font-family: Mplus1p, sans-serif;
+  }
+  .location-subtitle.subtitle-1.phone-location-subtitles.english {
+    font-size: 24px;
+  }
+  .location-subtitle.subtitle-2 {
+    position: static;
+    margin-top: 50px;
+  }
+  .div-block-7 {
+    margin-top: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .button.japanese {
+    font-family: Mplus1p, sans-serif;
+  }
+  .button.mobile-location-button {
+    font-size: 18px;
+  }
+  .footer-follow-us {
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  .footer-follow-us.japanese {
+    font-size: 16px;
+  }
+  .footer-open-title.footer-open-title-mobile.japanese {
+    font-size: 30px;
+  }
+  .open-list-item.list-title {
+    font-size: 16px;
+  }
+  .open-list-item.list-title.mobile-footer {
+    font-size: 16px;
+  }
+  .open-list-item.list-title.mobile-wednesday-footer {
+    font-size: 15px;
+  }
+  .open-list-item.list-title.mobile-footer-wednesday {
+    font-size: 15px;
+  }
+  .footer-contact-title.footer-contact-title-mobile.japanese {
+    font-size: 30px;
+  }
+  .list-item-2 {
+    width: 100%;
+  }
+  .text-block-4.japanese {
+    font-size: 16px;
+  }
+  .text-block-4.japanese-footer-telephone-number {
+    font-family: Mplus1p, sans-serif;
+    font-size: 16px;
+  }
+  .text-block-4.mobile-footer-english {
+    font-size: 16px;
+  }
+  .heading-12.japanese {
+    font-family: Mplus1p, sans-serif;
+    font-size: 20px;
+  }
+  .footer-column-hours {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .footer-column-contact {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .language-japanese-block.tablet-language-selection {
+    padding-right: 299px;
+    padding-left: 299px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .main-button {
+    width: 75px;
+    height: 75px;
+  }
+  .main-button.call-button-english {
+    width: 75px;
+    height: 75px;
+  }
+  .icon-2 {
+    background-color: transparent;
+  }
+  .menu-button {
+    background-color: #000;
+    color: #ff5722;
+    font-size: 54px;
+  }
+  .menu-button.w--open {
+    background-color: #000;
+  }
+  .menu-button.w--open:active {
+    background-color: #000;
+  }
+  .zushi-beach-title.japanese-zushi-beach-title.mobile-japanese-zushi-beach-title {
+    font-size: 40px;
+  }
+  .container-9 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-copyright-text {
+    margin-bottom: 0px;
+  }
+  .english-call-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-phone-image {
+    left: 26px;
+    top: 16%;
+    max-width: 50%;
+  }
+  .footer-call-button-text {
+    left: -3px;
+    top: 59%;
+    right: 0px;
+    bottom: 80%;
+    height: 1em;
+    font-size: 17px;
+    line-height: 1.1em;
+  }
+  .footer-call-button-text.japanese-call-text {
+    left: 0px;
+    top: 60%;
+    font-size: 14px;
+    line-height: 1em;
+  }
+  .footer-call-button-text.footer-call-button-mobile {
+    font-size: 15px;
+  }
+  .footer-call-button-text.footer-call-button-mobile.japanese {
+    top: 62%;
+  }
+  .footer-call-button-text.footer-call-button-mobile.japanese.footer-eigo-call-button {
+    font-family: Mplus1p, sans-serif;
+  }
+  .location-heading.location-heading-mobile.japanese {
+    font-size: 40px;
+  }
+  .discount-section {
+    background-image: -webkit-linear-gradient(270deg, null, null), url('../../../images/loneSmoke-smoke-WEB.png');
+    background-image: linear-gradient(180deg, null, null), url('../../../images/loneSmoke-smoke-WEB.png');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+  .discount-heading.japanese.mobile-discount-heading {
+    font-size: 40px;
+  }
+  .text-field.japanese {
+    font-family: Mplus1p, sans-serif;
+  }
+  .submit-button.japanese {
+    font-family: Mplus1p, sans-serif;
+  }
+  .discount-sub-heading.discount-sub-heading-mobile.japanese.mobile-discount-subheading {
+    font-size: 20px;
+  }
+  .topping-title.toppings-title.japanese {
+    font-size: 20px;
+  }
+  .topping-title._100-yen-item.japanese {
+    font-size: 18px;
+  }
+  .topping-title._200-yen-item.japanese {
+    font-size: 20px;
+  }
+  .heading-24.menu-heading-phone.japanese-dog-links-line-break.japanese {
+    font-family: Mplus1p, sans-serif;
+  }
+  .important-text-31.japanese-discount-amount {
+    font-family: Mplus1p, sans-serif;
+  }
+  .language-choice-block {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .language-choice-block.mobile-language-nihongo-block {
+    padding-right: 325px;
+    padding-left: 325px;
+  }
+  .language-choice-block.mobile-language-nihongo-block.tablet-language-dropdown {
+    padding-right: 326px;
+    padding-left: 326px;
+  }
+  .language-choice-block.mobile-language-english-block {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .language-choice-block.mobile-language-english-block.tablet-mobile-language-dropdown {
+    padding-right: 320px;
+    padding-left: 320px;
+  }
+  .language-choice-block.mobile-japanese-language-choice {
+    padding-right: 90px;
+    padding-left: 90px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .english-text-dropdown.link-block-text {
+    padding-left: 10px;
+  }
+  .nav-menu.mobile-nav-menu {
+    padding-bottom: 104px;
+    background-color: #000;
+  }
+  .important-text-32 {
+    font-family: Bitter, serif;
+  }
+  .important-text-32.japanese-slider-subtitle {
+    font-family: Mplus1p, sans-serif;
+  }
+  .japanese-slider-3 {
+    font-family: Mplus1p, sans-serif;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-3 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .align-center.header-slide-1 {
+    margin-top: 12vh;
+  }
+  .title-americanbbq {
+    color: #ff5722;
+  }
+  .title-welcome {
+    text-shadow: 1px 1px 20px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+  }
+  .container-3 {
+    margin-top: 24vh;
+  }
+  .container-3.header-slide-3 {
+    margin-top: 18vh;
+  }
+  .slider-h3 {
+    font-size: 30px;
+    text-shadow: 1px 1px 8px #000, 1px 1px 6px #000;
+  }
+  .slider-h1 {
+    font-size: 40px;
+  }
+  .slider-h1.mobile-slider-h1.tablet-slider-h1.japanese-slider-h1 {
+    font-size: 40px;
+  }
+  .slider-3-title {
+    font-size: 60px;
+  }
+  .slider-3-title.mobile-slider-3-title.tablet-slider-3-title.japanese-slider-3-title {
+    font-size: 40px;
+  }
+  .container-5 {
+    padding-bottom: 0px;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.english {
+    min-height: 300px;
+  }
+  .food-card-title.english-menu-cart-title {
+    font-family: 'American captain', sans-serif;
+  }
+  .paragraph.food-description.english-menu-card-subtitle {
+    font-family: Bitter, serif;
+    font-size: 18px;
+  }
+  .image-popup {
+    display: block;
+    width: 100%;
+  }
+  .menu-slideshow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .lightbox-link {
+    background-color: #000;
+  }
+  .location-subtitle.subtitle-1 {
+    font-size: 30px;
+  }
+  .location-subtitle.subtitle-1.phone-location-subtitles {
+    padding-bottom: 0px;
+  }
+  .location-subtitle.subtitle-2 {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  .location-subtitle-wrapper.location-subtitle-wrapper-mobile {
+    max-width: 100%;
+  }
+  .div-block-6 {
+    max-width: 100%;
+  }
+  .button.mobile-location-button {
+    font-size: 18px;
+  }
+  .bottom-footer {
+    height: 1120px;
+  }
+  .footer-follow-us {
+    font-size: 30px;
+  }
+  .footer-open-title.footer-open-title-mobile {
+    margin-bottom: 0px;
+  }
+  .footer-contact-title.footer-contact-title-mobile {
+    margin-bottom: 0px;
+  }
+  .heading-12 {
+    font-family: Bitter, serif;
+    text-transform: capitalize;
+  }
+  .language-japanese-block.tablet-language-selection.phone-landscape {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  .list-item-3 {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .welcome-heading.japanese {
+    font-size: 40px;
+  }
+  .heading-14.japanese.mobile-fresh-meat-subtitle {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .line-break-wrapper {
+    width: 90%;
+  }
+  .menu-line-break {
+    top: -50px;
+    display: inline-block;
+  }
+  .intro-column {
+    margin-bottom: 25px;
+  }
+  .more-button.japanese.mobile-section-buttons {
+    padding: 20px 75px;
+  }
+  .more-button.mobile-middle-nav-buttons {
+    padding: 20px 75px;
+  }
+  .footer-phone-image {
+    left: 31px;
+    top: 22%;
+    max-width: 40%;
+  }
+  .footer-phone-image.footer-phone-mobile-image {
+    left: 31px;
+    top: 21%;
+    max-width: 40%;
+  }
+  .footer-call-button-text.footer-call-button-mobile {
+    font-size: 13px;
+  }
+  .image-19 {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+  }
+  .discount-sub-heading.discount-sub-heading-mobile {
+    font-size: 15px;
+  }
+  .important-text-25.discount-sub-heading-important-text {
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  .heading-18.bbq-rice-sub-heading-phone {
+    margin-top: 0px;
+    font-size: 23px;
+  }
+  .topping-price-break.topping-line-break-phone {
+    display: block;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .topping-line-break-divider.mobile-landscape-line-break {
+    display: none;
+  }
+  .heading-24 {
+    width: 150px;
+  }
+  .heading-24.free-menu-heading {
+    width: 130px;
+  }
+  .heading-24.free-menu-heading.topping-sub-heading-phone {
+    width: 100px;
+    font-size: 25px;
+  }
+  .heading-24.menu-heading-phone {
+    width: 200px;
+    font-size: 30px;
+  }
+  .heading-24.topping-sub-heading-phone {
+    width: 100px;
+    font-size: 30px;
+  }
+  .heading-24.rack-of-ribs-heading.japanese.mobile-menu-ribs-category {
+    width: 230px;
+  }
+  .column-6 {
+    margin-bottom: 25px;
+  }
+  .image-28 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-29 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-30 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-31 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-32 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-33 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu-category-line-break.menu-phone {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .language-choice-block.mobile-language-nihongo-block.mobile-landscape-language-dropdown {
+    padding-right: 230px;
+    padding-left: 230px;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav-menu-right {
+    left: -400px;
+    top: 146px;
+    z-index: 0;
+    background-color: #000;
+  }
+  .nav-menu-right.mobile-navs {
+    left: -400px;
+    top: 122px;
+    display: block;
+    margin-left: 400px;
+    padding-top: 0px;
+  }
+  .navbar-wrapper {
+    margin-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .navbar-wrapper.navbar-mobile-portrait {
+    position: fixed;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    background-color: #000;
+  }
+  .link-block-3.navbar__nav-icon {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .link-block-3.navbar__nav-icon:hover {
+    margin-bottom: 0px;
+  }
+  .navbar__nav-link {
+    text-align: left;
+  }
+  .navbar__nav-link.mobile-centered {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .navbar_nav-break.mobile-hidden {
+    display: none;
+  }
+  .language-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .language-drop-down.mobile-language-wrapper {
+    display: block;
+  }
+  .language-drop-down.mobile-language-wrapper:hover {
+    padding-bottom: 20px;
+    border-color: #000;
+  }
+  .banner {
+    height: 100vh;
+  }
+  .slide-1 {
+    background-image: url('../../../images/loneSmoke-smoker-pit-WEB.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .align-center {
+    margin-top: 125px;
+  }
+  .align-center.footer-columns {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .align-center.header-slide-1 {
+    margin-top: -10vh;
+  }
+  .title-americanbbq {
+    font-size: 35px;
+  }
+  .title-lone-smoke {
+    font-size: 65px;
+  }
+  .title-welcome {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 1.1em;
+    text-shadow: 1px 1px 20px #000, 1px 1px 6px #000;
+  }
+  .title-welcome.japanese.mobile-splash-sub-subtitle {
+    text-shadow: 1px 1px 20px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+  }
+  .header-slider-navbutton.header-slider-navbutton--right {
+    margin-top: 560px;
+  }
+  .header-slider-navbutton.header-slider-navbutton--left {
+    margin-top: 560px;
+  }
+  .slide-3.slide-ribs {
+    background-image: url('../../../images/loneSmoke-ribs-closeup-WEB.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+  .container-3 {
+    margin-top: 35vh;
+    padding-right: 30px;
+  }
+  .container-3.header-slide-3 {
+    margin-top: 26vh;
+  }
+  .slider-menu-button {
+    padding: 20px 80px;
+    font-size: 20px;
+  }
+  .slider-h3 {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #000, 1px 1px 6px #000;
+  }
+  .slider-h1 {
+    margin-bottom: 0px;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 6px #000, 1px 1px 6px #000, 1px 1px 6px #000;
+  }
+  .slider-h1.mobile-slider-h1.tablet-slider-h1.japanese-slider-h1 {
+    font-size: 40px;
+  }
+  .div-block-3 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .slider-3-title {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+  .slider-3-title.mobile-slider-3-title.tablet-slider-3-title.japanese-slider-3-title {
+    font-size: 40px;
+  }
+  .menu-heading {
+    color: #ff5722;
+    text-shadow: 1px 1px 3px #000, 1px 1px 6px #000;
+  }
+  .slider-nav-icon {
+    color: #ecf0f1;
+  }
+  .food-column {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .food-card-container {
+    min-height: 400px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-image: url('../../../images/wooden_texture.jpg');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait {
+    padding-top: 10px;
+    background-image: -webkit-linear-gradient(270deg, #000, hsla(0, 0%, 100%, 0) 22%, rgba(0, 0, 0, .37) 72%, #000), url('../../../images/wooden_texture.jpg');
+    background-image: linear-gradient(180deg, #000, hsla(0, 0%, 100%, 0) 22%, rgba(0, 0, 0, .37) 72%, #000), url('../../../images/wooden_texture.jpg');
+    background-position: 0px 0px, 0px 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, repeat-y;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.mobile-bbq-rice-card {
+    min-height: 280px;
+    background-image: url('../../../images/wooden_texture.jpg');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.meat-rice-card.meat-rice-card-mobile-portrait.english {
+    min-height: 280px;
+    padding: 30px;
+    background-image: url('../../../images/loneSmoke-menu-card.png');
+    background-position: 50% 0px;
+    background-size: cover;
+    background-repeat: repeat-y;
+  }
+  .food-card-container.rack-of-ribs-card {
+    padding: 30px;
+  }
+  .food-card-container.food-card-container-mobile-portrait {
+    min-height: 400px;
+    padding: 30px;
+  }
+  .food-card-container.mobile-dogs-food-card {
+    min-height: 500px;
+  }
+  .food-card-container.mobile-dogs-food-card.english {
+    min-height: 400px;
+    padding: 30px;
+  }
+  .food-card-title {
+    font-size: 30px;
+  }
+  .food-card-title.japanese-smoked-sausage-title.mobile-menu-small-title.smaller {
+    font-size: 22px;
+  }
+  .food-card-title.english-menu-cart-title {
+    font-family: 'American captain', sans-serif;
+    font-size: 40px;
+  }
+  .food-card-title.mobile-menu-small-title {
+    font-size: 27px;
+  }
+  .food-card-title.mobile-menu-small-title.smaller {
+    font-size: 22px;
+  }
+  .food-card-title.mobile-menu-small-title.japanese-menu-card-title {
+    font-size: 26px;
+  }
+  .food-card-title.mobile-menu-small-title.japanese-menu-card-title.smaller {
+    font-size: 22px;
+  }
+  .food-card-title.japanese-menu-card-title {
+    font-size: 28px;
+  }
+  .food-card-subtitle {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .food-card-subtitle.english-menu-card-price {
+    width: 100%;
+    font-family: Bitter, serif;
+    text-align: center;
+  }
+  .paragraph.food-description {
+    text-align: center;
+  }
+  .paragraph.food-description.food-options-title {
+    text-align: center;
+  }
+  .paragraph.food-description.english-menu-card-subtitle {
+    font-family: Bitter, serif;
+    font-size: 16px;
+  }
+  .paragraph.food-description.japanese-menu-card-subtitle {
+    font-size: 16px;
+  }
+  .paragraph.food-description.japanese-menu-card-subtitle.smaller {
+    font-size: 14px;
+  }
+  .image-popup {
+    width: 100%;
+  }
+  .menu-slideshow {
+    margin-top: -20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .container-6 {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .location-subtitle {
+    color: #ecf0f1;
+    font-size: 18px;
+  }
+  .location-subtitle.subtitle-1 {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ecf0f1;
+    line-height: 1.1em;
+    text-align: center;
+  }
+  .location-subtitle.subtitle-1.phone-location-subtitles.japanese-location-subtitle {
+    padding-right: 41px;
+    padding-left: 41px;
+    font-size: 18px;
+  }
+  .location-subtitle.subtitle-1.phone-location-subtitles.english {
+    font-size: 18px;
+  }
+  .location-subtitle.subtitle-2 {
+    position: static;
+    display: block;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .location-subtitle.japanese.mobile-location-subtitle-small {
+    width: 95px;
+    margin-left: 0px;
+    padding-left: 7px;
+    font-size: 20px;
+  }
+  .location-subtitle-wrapper {
+    max-width: 100%;
+    padding-top: 15px;
+  }
+  .location-subtitle-wrapper.location-subtitle-wrapper-mobile {
+    padding-top: 0px;
+  }
+  .location-subtitle-zushi {
+    text-shadow: 1px 1px 6px #000, 1px 1px 6px #000;
+  }
+  .location-subtitle-zushi.japanese.mobile-location-subtitle-small {
+    width: 120px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 21px;
+    text-align: center;
+  }
+  .div-block-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .div-block-7 {
+    margin-top: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .button {
+    margin-top: 1px;
+    padding-top: 25px;
+    border-color: #bd0909;
+    color: #bd0909;
+  }
+  .button.japanese {
+    font-size: 18px;
+  }
+  .button.mobile-location-button {
+    font-size: 18px;
+  }
+  .bottom-footer {
+    height: auto;
+    margin-bottom: 0px;
+    background-image: none;
+  }
+  .footer-follow-us {
+    font-size: 30px;
+  }
+  .footer-content {
+    height: 100%;
+    padding-bottom: 0px;
+    line-height: 16px;
+  }
+  .footer-underlay {
+    height: 150vh;
+  }
+  .footer-overlay {
+    height: 140vh;
+    margin-bottom: 0px;
+    background-color: #000;
+  }
+  .main-head-container {
+    padding-top: 180px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .location-title-section {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .dropdown-list {
+    display: none;
+  }
+  .dropdown-list.w--open {
+    position: static;
+    z-index: 100;
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .dropdown-list.w--open:hover {
+    border-color: #000;
+  }
+  .language-japanese-block {
+    position: relative;
+    z-index: 20;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .language-japanese-block.tablet-language-selection.phone-landscape.phone-portrait {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .menu-chicken-title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .menu-pork-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .list-item-3 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .icon-2 {
+    color: #ff5722;
+    font-size: 44px;
+    text-shadow: 1px 1px 6px #000;
+  }
+  .icon-2.hamburger-icon {
+    background-color: transparent;
+    text-shadow: none;
+  }
+  .menu-button {
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 10px;
+    border: 2px none #ecf0f1;
+    border-radius: 5px;
+  }
+  .menu-button.w--open {
+    background-color: #000;
+  }
+  .menu-button.mobile-hamburger-button.w--open {
+    border-color: #ff5722;
+    background-color: #000;
+  }
+  .zushi-beach-title {
+    font-size: 40px;
+  }
+  .welcome-heading {
+    font-size: 40px;
+  }
+  .welcome-heading.mobile-welcome-heading {
+    margin-top: 0px;
+  }
+  .heading-14 {
+    letter-spacing: 0px;
+  }
+  .line-break-wrapper {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  .menu-line-break {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .menu-title-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .container-7 {
+    height: auto;
+  }
+  .more-button.japanese.mobile-section-buttons {
+    padding: 20px 75px;
+  }
+  .more-button.mobile-middle-nav-buttons {
+    padding: 20px 75px;
+  }
+  .row-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .container-8 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+  .heading-16 {
+    font-size: 50px;
+  }
+  .white-text-block {
+    font-size: 19px;
+  }
+  .text-block-5 {
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+  }
+  .our-meat-heading.japanese.mobile-fresh-meat-title {
+    font-size: 25px;
+  }
+  .super-fresh-meat.japanese.mobile-fresh-meat-title {
+    font-size: 25px;
+  }
+  .text-block-6.japanese.mobile-fresh-meat-story {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .menu-title {
+    font-size: 40px;
+  }
+  .menu-title.mobile-menu-title {
+    margin-top: 0px;
+  }
+  .pick-something-heading {
+    font-size: 20px;
+  }
+  .pick-something-heading.japanese.mobile-menu-subtitle {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .list-item-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .heading-17 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .image-14 {
+    max-width: 100%;
+  }
+  .price-button {
+    padding-top: 0px;
+  }
+  .menu-subtitle.most-popular-subtitle {
+    text-align: center;
+  }
+  .footer-copyright-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .footer-copyright-text.footer-copyright-text-mobile {
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 10px;
+  }
+  .column-5 {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .location-heading.location-heading-mobile {
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+  .important-text-23 {
+    position: static;
+    font-size: 18px;
+  }
+  .discount-section {
+    height: 500px;
+    background-image: -webkit-linear-gradient(270deg, null, null), url('../../../images/loneSmoke-smoke-WEB.png');
+    background-image: linear-gradient(180deg, null, null), url('../../../images/loneSmoke-smoke-WEB.png');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+  .discount-heading {
+    font-size: 40px;
+  }
+  .discount-heading.japanese.mobile-discount-heading {
+    margin-bottom: 19px;
+    font-size: 35px;
+  }
+  .form.discount-form-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .text-field {
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+  }
+  .submit-button {
+    display: block;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 104px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+  }
+  .submit-button.japanese {
+    width: 80%;
+    padding-right: 38px;
+    padding-left: 38px;
+  }
+  .text-block-8.japanese {
+    font-family: Mplus1p, sans-serif;
+    font-size: 18px;
+  }
+  .text-block-9 {
+    font-size: 18px;
+  }
+  .text-block-9.japanese {
+    font-family: Mplus1p, sans-serif;
+    line-height: 30px;
+  }
+  .discount-sub-heading.discount-sub-heading-mobile {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .discount-sub-heading.discount-sub-heading-mobile.japanese.mobile-discount-subheading {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .important-text-25.discount-sub-heading-important-text {
+    padding-left: 2px;
+  }
+  .heading-18.japanese.bbq-rice-sub-heading {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 26px;
+  }
+  .heading-19.bbq-rice-sub-sub-heading.japanese {
+    font-size: 16px;
+  }
+  .heading-19.bbq-rice-sub-sub-heading.english {
+    font-size: 16px;
+  }
+  .heading-20.bbq-rice-sub-sub-heading.japanese {
+    font-size: 16px;
+  }
+  .heading-20.bbq-rice-sub-sub-heading.english {
+    font-size: 16px;
+  }
+  .heading-21.bbq-rice-sub-sub-heading.japanese {
+    font-size: 16px;
+  }
+  .heading-21.bbq-rice-sub-sub-heading.english {
+    font-size: 16px;
+  }
+  .topping-price-break.price-topping-line-break.topping-line-break-phone {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .topping-line-break-divider {
+    display: none;
+  }
+  .topping-line-break-divider.mobile-portrait-line-break {
+    display: none;
+  }
+  .important-text-27 {
+    padding-right: 5px;
+    padding-left: 3px;
+  }
+  .menu-category-line-break.menu-phone {
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+  .language-choice-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 90px;
+    padding-left: 90px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .language-choice-block.mobile-language-nihongo-block {
+    position: relative;
+    z-index: 20;
+    padding-right: 90px;
+    padding-left: 90px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .language-choice-block.mobile-language-nihongo-block.mobile-portrait-language-dropdown {
+    padding-right: 105px;
+    padding-left: 105px;
+  }
+  .language-choice-block.mobile-language-english-block.tablet-mobile-language-dropdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .language-choice-block.mobile-language-english-block.tablet-mobile-language-dropdown.phone-portrait-language-dropdown {
+    position: static;
+    width: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 332px;
+    background-color: #000;
+  }
+  .nav-menu.mobile-nav-menu {
+    position: absolute;
+    top: 0px;
+    display: block;
+    padding-bottom: 59px;
+  }
+  .japanese-slider-3 {
+    font-size: 40px;
+  }
+  .column-7 {
+    height: 1px;
+  }
+  .row-6 {
+    margin-bottom: 100px;
+  }
+  .important-text-33 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .about-heading.english.sub-heading {
+    margin-top: 0px;
+    font-size: 30px;
+  }
+  .about-heading.english.mobile-about {
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  src: url('../fonts/NotoSansJavanese-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mplus1p';
+  src: url('../fonts/Mplus1p-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Echino Spark';
+  src: url('../fonts/EchinosParkScript_PERSONAL_USE_ONLY.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Old press';
+  src: url('../fonts/Old-Press.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Old press';
+  src: url('../fonts/Old-Press-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Steelworks';
+  src: url('../fonts/Steelworks-Vintage-Demo.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'American captain';
+  src: url('../fonts/American-Captain.ttf') format('truetype'), url('../fonts/American-Captain.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../fonts/Pacifico.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Granaina limpia';
+  src: url('../fonts/granaina-limpia.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
