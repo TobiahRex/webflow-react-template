@@ -2,14 +2,14 @@ import React from 'react';
 
 import { WebflowJs } from './assets/utils';
 
-import {
-  NavLogo,
-  Language,
-  NavMenu,
-  HamburgerBtn,
-} from '../';
+// import {
+//   NavLogo,
+//   Language,
+//   NavMenu,
+//   HamburgerBtn,
+// } from '../';
 
-const Navbar = () => {
+const Navbar = ({ children }) => {
   WebflowJs() //eslint-disable-line
 
   return (
@@ -21,10 +21,7 @@ const Navbar = () => {
       data-easing="ease-in-out"
       data-ix="navbar-zoom-in-on-load"
     >
-      <NavLogo />
-      <Language />
-      <NavMenu />
-      <HamburgerBtn />
+      {children}
     </div>
   );
 };

@@ -9,6 +9,11 @@ import {
   Navbar,
   Header,
   Slider,
+
+  NavLogo,
+  Language,
+  NavMenu,
+  HamburgerBtn,
 } from './components';
 
 class Banner extends React.Component {
@@ -29,7 +34,12 @@ class Banner extends React.Component {
   render() {
     return (
       <div className="banner">
-        <Navbar />
+        <Navbar>
+          <NavLogo />
+          <Language />
+          <NavMenu />
+          <HamburgerBtn />
+        </Navbar>
         <Header />
         <Slider />
       </div>
