@@ -3,6 +3,7 @@ import React from 'react';
 import { WebflowJs } from './assets/utils';
 
 import {
+  NavLogo,
   Language,
   NavMenu,
   HamburgerBtn,
@@ -20,14 +21,7 @@ const Navbar = () => {
       data-easing="ease-in-out"
       data-ix="navbar-zoom-in-on-load"
     >
-      <a className="navbar-wrapper__logo w-nav-brand" href="">
-        <img
-          className="image-3"
-          src="images/LoneSmoke_Logo_HiRes_navbar.png"
-          width="70"
-          role="presentation"
-        />
-      </a>
+      <NavLogo />
       <Language />
       <NavMenu />
       <HamburgerBtn />
