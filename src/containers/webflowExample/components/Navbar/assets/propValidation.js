@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
-const { string } = PropTypes;
+const { arrayOf, object } = PropTypes;
 
 export const propTypes = {
-  x: string.isRequired,
+  children: arrayOf(object).isRequired,
 };
 
 export const defaultProps = {
-  x: '',
+  children: '',
 };

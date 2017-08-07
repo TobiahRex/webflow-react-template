@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { WebflowJs } from './assets/utils';
+import { propTypes } from './assets/propValidation';
 
 // import {
 //   NavLogo,
@@ -25,5 +26,7 @@ const Navbar = ({ children }) => {
     </div>
   );
 };
+
+Navbar.propTypes = propTypes;
 
 export default Navbar;

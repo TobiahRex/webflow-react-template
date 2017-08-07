@@ -89,6 +89,7 @@
     "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.3.2",
+    "react-fontawesome": "^1.6.1",
     "react-redux": "^5.0.5",
     "react-router": "3.0.5",
     "react-router-redux": "^4.0.8",

@@ -1,20 +1,9 @@
 import React from 'react';
-
+import FontAwesome from 'react-fontawesome';
 import { propTypes } from './assets/propValidation';
 import {
   WebflowJs,
 } from './assets/utils';
-
-import {
-  Navbar,
-  Header,
-  Slider,
-
-  NavLogo,
-  Language,
-  NavMenu,
-  HamburgerBtn,
-} from './components';
 
 class Banner extends React.Component {
   static propTypes = propTypes
@@ -34,14 +23,8 @@ class Banner extends React.Component {
   render() {
     return (
       <div className="banner">
-        <Navbar>
-          <NavLogo />
-          <Language />
-          <NavMenu />
-          <HamburgerBtn />
-        </Navbar>
-        <Header />
-        <Slider />
+        <h1>Hi Phil</h1>
+        <FontAwesome name="facebook" style={{ color: 'black' }} />
       </div>
     );
   }
